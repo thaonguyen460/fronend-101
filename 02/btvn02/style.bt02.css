@@ -36,7 +36,7 @@ img{
 
 .purple-circle{
 position: absolute;
-background-image: url("C:\Users\Admin\Downloads\Hero");
+background-image: url("https://user-images.githubusercontent.com/91602997/136543734-2cf62d3a-6890-48c0-9980-1e7c14aff81a.png");
 }
 
 .purple-circle::before{
@@ -46,7 +46,7 @@ background-image: url("C:\Users\Admin\Downloads\Hero");
     background: #D6B1FF;
     border-radius: 100%;
     display: block;
-    position: relative;
+    position: relative; 
 }
 
 .headline{

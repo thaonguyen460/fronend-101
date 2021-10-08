@@ -8,8 +8,6 @@ a{
 img{
     width: 100%;
     position: absolute;
-
-
 }
 .container{
     max-width: 1230px;
@@ -20,6 +18,8 @@ img{
 }
 .row{
     display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .col{
@@ -36,7 +36,6 @@ img{
 
 .purple-circle{
 position: absolute;
-background-image: url("https://user-images.githubusercontent.com/91602997/136543734-2cf62d3a-6890-48c0-9980-1e7c14aff81a.png");
 }
 
 .purple-circle::before{

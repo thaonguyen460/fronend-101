@@ -21,10 +21,13 @@ img{
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .row{
     display: flex;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-block-end: 50px;
+    margin-inline-start: 50px;
 }
 
 .col{
@@ -32,7 +35,7 @@ img{
     padding-right: 10px;
 }
 
-.buttton{
+.button{
     color: #fff;
     padding: 12px 32px;
     background-color: #8C30F5;

@@ -35,7 +35,7 @@ body{
     margin-bottom: 40px;
 }
 
-.box__link{
+.box__link a{
     color:#8C30F5;
     text-decoration: none;
 }

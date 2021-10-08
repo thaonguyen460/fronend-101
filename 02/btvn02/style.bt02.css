@@ -1,0 +1,60 @@
+body{
+    background: #0B0D17;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    position: absolute;
+    
+
+}
+.container{
+    max-width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.row{
+    display: flex;
+}
+
+.col{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.buttton{
+    color: #fff;
+    padding: 12px 32px;
+    background-color: #8C30F5;
+    border-radius: 4px;
+}
+
+.purple-circle{
+position: absolute;
+background-image: url("C:\Users\Admin\Downloads\Hero");
+}
+
+.purple-circle::before{
+    content:"";
+    width: 600px;
+    height: 600px;
+    background: #D6B1FF;
+    border-radius: 100%;
+    display: block;
+    position: relative;
+}
+
+.headline{
+    position: absolute;
+    width: 1110px;
+    height: 382px;
+    left: calc(50% - 1110px/2);
+    top: calc(50% - 382px/2);
+    background: #8C30F5;
+    border-radius: 16px;
+}

@@ -5,6 +5,10 @@ a{
     color: inherit;
     text-decoration: none;
 }
+
+a:hover{
+    color: blue;
+}
 .container{
     max-width: 1230px;
     margin-left: auto;
@@ -39,7 +43,7 @@ a{
     margin-bottom: 40px;
 }
 
-.box__link a{
+.box__link{
     color:#8C30F5;
 }
 

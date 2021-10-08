@@ -2,7 +2,7 @@ body{
     background: #ffffff;
 }
 div{
-    display: block;
+    
 }
 a{
     color: inherit;
@@ -10,7 +10,6 @@ a{
 }
 img{
     max-width: 100%;
-    position: absolute;
     height: auto;
     display: block;
 }
@@ -26,9 +25,7 @@ img{
     display: flex;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-block-end: 50px;
-    margin-inline-start: 50px;
-}
+=}
 
 .col{
     padding-left: 10px;
@@ -43,7 +40,6 @@ img{
 }
 
 .purple-circle{
-position: absolute;
 }
 
 .purple-circle::before{
@@ -52,12 +48,9 @@ position: absolute;
     height: 600px;
     background: #D6B1FF;
     border-radius: 100%;
-    display: block;
-    position: relative; 
-}
+=}
 
 .headline{
-    position: absolute;
     width: 1110px;
     height: 382px;
     left: calc(50% - 1110px/2);

@@ -25,7 +25,7 @@ img{
     display: flex;
     margin-top: 50px;
     margin-bottom: 50px;
-=}
+}
 
 .col{
     padding-left: 10px;
@@ -41,6 +41,7 @@ img{
 }
 
 .purple-circle{
+    max-width: 100%;
 }
 
 .purple-circle::before{
@@ -49,7 +50,7 @@ img{
     height: 600px;
     background: #D6B1FF;
     border-radius: 100%;
-=}
+}
 
 .headline{
     width: 1110px;

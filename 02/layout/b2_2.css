@@ -1,6 +1,14 @@
 body{
     background: #0B0D17;
 }
+.row{
+    display: flex;
+}
+
+.col{
+    padding-left: 10px;
+    padding-right: 10px;
+}
 .box{
     background: #fff;
     width: 350px;

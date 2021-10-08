@@ -1,6 +1,10 @@
 body{
     background: #0B0D17;
 }
+a{
+    color: inherit;
+    text-decoration: none;
+}
 .container{
     max-width: 1230px;
     margin-left: auto;
@@ -37,7 +41,6 @@ body{
 
 .box__link a{
     color:#8C30F5;
-    text-decoration: none;
 }
 
 

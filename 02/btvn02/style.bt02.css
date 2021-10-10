@@ -21,7 +21,7 @@ img{
 }
 
 .header__menu a{
-    padding-inline: 20px;
+    padding-inline-end: 20px;
     float: left;
 }
 
@@ -34,19 +34,85 @@ img{
 
 }
 
-.row{
-    display: block;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
 .button{
     color: #fff;
     padding: 12px 32px;
     background-color: #8C30F5;
     border-radius: 4px;
     max-width: 80px;
+    text-align: center;
 }
+
+.banner{
+    display:inline;
+
+}
+
+.banner___text{
+
+}
+
+.banner___image{
+
+}
+
+.deal{
+
+}
+
+.deal___text{
+
+}
+
+.deal__image{
+
+}
+
+.achievement{
+    
+}
+
+.achievement__text{
+
+}
+
+.achievement__title{
+
+}
+
+.headline01{
+
+}
+
+.headline01__text{
+
+}
+
+.headline01__image{
+
+}
+
+.headline02{
+    width: 1110px;
+    height: 382px;
+    left: calc(50% - 1110px/2);
+    top: calc(50% - 382px/2);
+    background: #8C30F5;
+    border-radius: 16px;
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+
+.headline02__text{
+
+}
+
+.headline02__image{
+
+}
+
+
 
 .purple-circle{
     max-width: 100%;

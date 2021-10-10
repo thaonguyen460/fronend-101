@@ -16,7 +16,7 @@ img{
 }
 
 .header{
-    display:inline;
+    display:flex;
 
 }
 
@@ -26,7 +26,7 @@ img{
 }
 
 .header__logo{
-    float: inherit;
+    float: initial;
 }
 
 .header__button{
@@ -44,19 +44,24 @@ img{
 }
 
 .banner{
-    display:inline;
+    display:flex;
+    width: 100%;
 
 }
 
 .banner___text{
+    max-width: 50%;
+
 
 }
 
 .banner___image{
+    max-width: 50%;
 
 }
 
 .deal{
+    display:flex;
 
 }
 
@@ -69,7 +74,7 @@ img{
 }
 
 .achievement{
-    
+    display:flex
 }
 
 .achievement__text{
@@ -81,6 +86,7 @@ img{
 }
 
 .headline01{
+    display:flex;
 
 }
 
@@ -110,10 +116,6 @@ img{
 
 .headline02__image{
 
-}
-
-.purple-circle{
-    max-width: 100%;
 }
 
 .purple-circle::before{

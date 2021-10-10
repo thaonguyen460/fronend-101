@@ -16,18 +16,21 @@ img{
 }
 
 .header{
+    display:inline;
 
 }
 
-.header__button{
-    
-
-}
-.header__menu{
-
+.header__menu a{
+    padding-inline: 20px;
+    float: left;
 }
 
 .header__logo{
+    float: inherit;
+}
+
+.header__button{
+    float: right;
 
 }
 
@@ -47,7 +50,7 @@ img{
     padding: 12px 32px;
     background-color: #8C30F5;
     border-radius: 4px;
-    max-width: 100px;
+    max-width: 80px;
 }
 
 .purple-circle{

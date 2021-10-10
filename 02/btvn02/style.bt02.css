@@ -112,8 +112,6 @@ img{
 
 }
 
-
-
 .purple-circle{
     max-width: 100%;
 }
@@ -126,13 +124,3 @@ img{
     border-radius: 100%;
 }
 
-.headline{
-    width: 1110px;
-    height: 382px;
-    left: calc(50% - 1110px/2);
-    top: calc(50% - 382px/2);
-    background: #8C30F5;
-    border-radius: 16px;
-    padding-right: 30px;
-    padding-left: 30px;
-}

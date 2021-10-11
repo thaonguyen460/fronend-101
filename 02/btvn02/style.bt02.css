@@ -62,7 +62,7 @@ header__button{
 }
 .button__primary{
     background-color: var(--color-button-secondary);
-    color:var(--color-text-default-white);
+    color:var(--color-button-primary);
 }
 .button__secondary{
     color:var(--color-text-default-white);
@@ -80,11 +80,9 @@ header__button{
 
 h1{
     font-size: 72px;
-    line-height: 98px;
 }
 h2{
     font-size: 48px;
-    line-height: 64px;
 }
 p{
     font-size: 16px;

@@ -72,6 +72,27 @@ header__button{
 
 /* End Button */
 
+/* Start Text */
+
+.title{
+    color: var(--color-text-gray);
+    font-weight: bold;
+}
+
+h1{
+    font-size: 72px;
+    line-height: 98px;
+}
+h2{
+    font-size: 48px;
+    line-height: 64px;
+}
+p{
+    font-size: 16px;
+    line-height: 24px;
+}
+/* End Text */
+
 
 .banner{
     display:flex;
@@ -146,6 +167,10 @@ header__button{
 
 .headline02__image{
 
+}
+
+.purple-circle{
+    position: relative;
 }
 
 .purple-circle::before{

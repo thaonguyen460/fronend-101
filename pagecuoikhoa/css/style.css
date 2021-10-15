@@ -647,6 +647,10 @@ video {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.justify-items-start {
+  justify-items: start;
+}
+
 .gap-x-8 {
   -moz-column-gap: 2rem;
        column-gap: 2rem;

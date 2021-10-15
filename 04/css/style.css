@@ -666,6 +666,14 @@ video {
   z-index: 10;
 }
 
+.m-auto {
+  margin: auto;
+}
+
+.-m-0 {
+  margin: 0px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -717,6 +725,10 @@ video {
 
 .w-1200 {
   width: 1200px;
+}
+
+.max-w-7xl {
+  max-width: 80rem;
 }
 
 .translate-y-20 {

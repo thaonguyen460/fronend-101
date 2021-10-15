@@ -7,6 +7,7 @@ module.exports = {
   theme: {
     container: {
       center: true,
+      width: '1024px',
     },
     fontFamily: {
         "body": "'Inter', sans-serif"

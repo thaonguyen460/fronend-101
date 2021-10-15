@@ -8,7 +8,10 @@ module.exports = {
     container: {
       center: true
     },
-    
+    fontFamily: {
+      'body': ["'Inter', sans-serif;"]
+    },
+
     extend: {},
   },
   variants: {

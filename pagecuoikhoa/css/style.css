@@ -599,6 +599,8 @@ video {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 
 @media (min-width: 640px) {
@@ -643,6 +645,10 @@ video {
   display: grid;
 }
 
+.max-w-screen-lg {
+  max-width: 1024px;
+}
+
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -670,6 +676,8 @@ video {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
   }
 
   @media (min-width: 640px) {
@@ -700,9 +708,5 @@ video {
     .xl\:container {
       max-width: 1536px;
     }
-  }
-
-  .xl\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }

@@ -642,6 +642,30 @@ video {
   }
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.top-3\/4 {
+  top: 75%;
+}
+
+.left-1\/2 {
+  left: 50%;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
@@ -654,8 +678,36 @@ video {
   margin: auto;
 }
 
+.mt-24 {
+  margin-top: 6rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
+.-mr-8 {
+  margin-right: -2rem;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
 }
 
 .grid {
@@ -668,6 +720,16 @@ video {
 
 .max-w-screen-lg {
   max-width: 1024px;
+}
+
+.translate-y-20 {
+  --tw-translate-y: 5rem;
+  transform: var(--tw-transform);
+}
+
+.-translate-x-1\/2 {
+  --tw-translate-x: -50%;
+  transform: var(--tw-transform);
 }
 
 .transform {
@@ -692,13 +754,68 @@ video {
        column-gap: 0.75rem;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.bg-brand-purple {
+  --tw-bg-opacity: 1;
+  background-color: rgba(140, 48, 245, var(--tw-bg-opacity));
+}
+
+.bg-brand-purple-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(214, 177, 255, var(--tw-bg-opacity));
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .font-body {
   font-family: 'Inter', sans-serif;;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 .hover\:scale-110:hover {
@@ -716,6 +833,10 @@ video {
 .hover\:text-brand-purple:hover {
   --tw-text-opacity: 1;
   color: rgba(140, 48, 245, var(--tw-text-opacity));
+}
+
+.hover\:opacity-80:hover {
+  opacity: 0.8;
 }
 
 @media (prefers-reduced-motion: no-preference) {

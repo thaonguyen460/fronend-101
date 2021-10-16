@@ -662,6 +662,10 @@ video {
   max-width: 1280px;
 }
 
+.transform {
+  transform: var(--tw-transform);
+}
+
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -692,6 +696,12 @@ video {
 .hover\:scale-110:hover {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
+  transform: var(--tw-transform);
+}
+
+.hover\:scale-105:hover {
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
   transform: var(--tw-transform);
 }
 

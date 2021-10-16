@@ -650,6 +650,10 @@ video {
   margin: 1rem;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .flex {
   display: flex;
 }

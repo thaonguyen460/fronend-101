@@ -22,6 +22,9 @@ module.exports = {
             500: '#0B0D17'
         }
       },
+      fontSize: {
+        'h1': [ "72px", "98px"]
+      }  
     },
   },
   variants: {

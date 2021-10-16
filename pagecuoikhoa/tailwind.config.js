@@ -24,7 +24,7 @@ module.exports = {
       },
       fontSize: {
         'h1': [ "72px", "98px"]
-      }  
+      }, 
     },
   },
   variants: {

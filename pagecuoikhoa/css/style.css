@@ -677,3 +677,8 @@ video {
 .font-body {
   font-family: 'Inter', sans-serif;;
 }
+
+.hover\:text-brand-purple:hover {
+  --tw-text-opacity: 1;
+  color: rgba(140, 48, 245, var(--tw-text-opacity));
+}

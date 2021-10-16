@@ -25,9 +25,6 @@ module.exports = {
       fontSize: {
         'h1': [ "72px", "98px"]
       }, 
-      MenuLi: {
-        'pt': 'padding-top:10px'
-      }, 
     },
   },
   variants: {

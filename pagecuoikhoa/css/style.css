@@ -1049,6 +1049,16 @@ video {
   line-height: 2.5rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .font-extrabold {
   font-weight: 800;
 }
@@ -1133,6 +1143,10 @@ video {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .lg\:justify-self-end {
+    justify-self: end;
+  }
+
   .lg\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
@@ -1141,5 +1155,15 @@ video {
   .lg\:text-h1 {
     font-size: 72px;
     line-height: 98px;
+  }
+
+  .lg\:text-h2 {
+    font-size: 48px;
+    line-height: 64px;
+  }
+
+  .lg\:text-h3 {
+    font-size: 40px;
+    line-height: 54px;
   }
 }

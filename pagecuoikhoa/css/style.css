@@ -604,6 +604,8 @@ video {
   --tw-scale-x: 1;
   --tw-scale-y: 1;
   --tw-transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  --tw-border-opacity: 1;
+  border-color: rgba(229, 231, 235, var(--tw-border-opacity));
 }
 
 .container {
@@ -714,8 +716,16 @@ video {
   height: 66.666667%;
 }
 
+.h-3\/6 {
+  height: 50%;
+}
+
 .w-4\/6 {
   width: 66.666667%;
+}
+
+.w-3\/6 {
+  width: 50%;
 }
 
 .max-w-screen-lg {
@@ -780,6 +790,19 @@ video {
 
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgba(255, 255, 255, var(--tw-border-opacity));
 }
 
 .bg-brand-purple {
@@ -880,6 +903,11 @@ video {
 .text-gray-300 {
   --tw-text-opacity: 1;
   color: rgba(209, 213, 219, var(--tw-text-opacity));
+}
+
+.text-brand-purple {
+  --tw-text-opacity: 1;
+  color: rgba(140, 48, 245, var(--tw-text-opacity));
 }
 
 .hover\:bg-purple-900:hover {

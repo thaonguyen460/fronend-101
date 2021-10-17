@@ -858,6 +858,11 @@ video {
   line-height: 54px;
 }
 
+.text-h5 {
+  font-size: 18px;
+  line-height: 28px;
+}
+
 .font-extrabold {
   font-weight: 800;
 }

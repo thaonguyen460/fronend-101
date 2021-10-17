@@ -30,7 +30,14 @@ module.exports = {
         'h3': ["40px", "54px"],
         'h4': ["24px", "32px"],
         'h5':["18px", "28px"]
-      }
+      },
+      width: {
+        1024: '1024px'
+      },
+      height: {
+        1024: '1024px'
+      },
+      
     },
   },
   variants: {

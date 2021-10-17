@@ -782,6 +782,10 @@ video {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.place-items-center {
+  place-items: center;
+}
+
 .justify-end {
   justify-content: flex-end;
 }
@@ -823,6 +827,10 @@ video {
 .gap-x-1 {
   -moz-column-gap: 0.25rem;
        column-gap: 0.25rem;
+}
+
+.justify-self-center {
+  justify-self: center;
 }
 
 .overflow-hidden {

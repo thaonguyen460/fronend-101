@@ -992,6 +992,10 @@ video {
   font-weight: 500;
 }
 
+.leading-normal {
+  line-height: 1.5;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));

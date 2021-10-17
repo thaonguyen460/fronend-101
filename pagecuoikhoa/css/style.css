@@ -948,6 +948,11 @@ video {
   padding-bottom: 1rem;
 }
 
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .pt-4 {
   padding-top: 1rem;
 }
@@ -1052,6 +1057,10 @@ video {
   color: rgba(140, 48, 245, var(--tw-text-opacity));
 }
 
+.hover\:transform:hover {
+  transform: var(--tw-transform);
+}
+
 .hover\:bg-purple-900:hover {
   --tw-bg-opacity: 1;
   background-color: rgba(76, 29, 149, var(--tw-bg-opacity));
@@ -1060,6 +1069,12 @@ video {
 .hover\:text-brand-purple:hover {
   --tw-text-opacity: 1;
   color: rgba(140, 48, 245, var(--tw-text-opacity));
+}
+
+.hover\:transition-opacity:hover {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 .group:hover .group-hover\:font-extrabold {

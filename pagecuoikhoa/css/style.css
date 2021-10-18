@@ -662,6 +662,10 @@ video {
   top: 50%;
 }
 
+.top-1\/4 {
+  top: 25%;
+}
+
 .z-20 {
   z-index: 20;
 }
@@ -721,6 +725,10 @@ video {
   margin-top: 3.5rem;
 }
 
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
 .block {
   display: block;
 }
@@ -764,6 +772,11 @@ video {
 
 .-translate-x-1\/2 {
   --tw-translate-x: -50%;
+  transform: var(--tw-transform);
+}
+
+.-translate-y-64 {
+  --tw-translate-y: -16rem;
   transform: var(--tw-transform);
 }
 

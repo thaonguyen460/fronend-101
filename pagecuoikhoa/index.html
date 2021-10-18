@@ -15,8 +15,8 @@
 <body>
     <div class="font-body m-auto">
         <!-- Start header-->
-        <header class="fixed z-40">
-            <div class="container px-4 pt-3 max-w-screen-lg">
+        <header class="fixed z-40 bg-white">
+            <div class="container p-4 pt-3 max-w-screen-lg">
                 <div class="grid grid-cols-1 lg:grid-cols-3">
                     <div class="col-span-2">
                         <button id="btn-close-menu" class="hidden fixed top-5 right-5 z-50 lg:hidden" onclick="close_menu()">
@@ -187,7 +187,7 @@
                         We have been working with clients around the world
                     </p>
                 </div>
-                <div class="carousel grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-7 justify-items-center">
+                <div class="my-carousel grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-7 justify-items-center">
                     <div>
                         <div class="bg-white p-10">
                             <h4 class="text-h4 font-extrabold">Efficient Collaborating</h4>
@@ -545,7 +545,7 @@
     }
 
     $(document).ready(function(){
-        $('.carousel').slick({
+        $('.my-carousel').slick({
             infinite: true,
             slidesToShow: 3,
             slidesToScroll: 1,

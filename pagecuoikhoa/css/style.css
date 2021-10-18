@@ -781,6 +781,10 @@ video {
   margin-right: 1rem;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
 .block {
   display: block;
 }
@@ -1296,6 +1300,11 @@ video {
     padding-right: 1rem;
   }
 
+  .lg\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
   .lg\:pb-12 {
     padding-bottom: 3rem;
   }
@@ -1306,6 +1315,10 @@ video {
 
   .lg\:pt-4 {
     padding-top: 1rem;
+  }
+
+  .lg\:pb-3 {
+    padding-bottom: 0.75rem;
   }
 
   .lg\:text-h1 {

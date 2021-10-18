@@ -725,6 +725,11 @@ video {
   margin-bottom: 2rem;
 }
 
+.my-16 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
 .ml-auto {
   margin-left: auto;
 }
@@ -1142,6 +1147,11 @@ video {
     margin-bottom: 3rem;
   }
 
+  .md\:my-16 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -1172,6 +1182,11 @@ video {
   .lg\:my-52 {
     margin-top: 13rem;
     margin-bottom: 13rem;
+  }
+
+  .lg\:my-16 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
 
   .lg\:mr-5 {

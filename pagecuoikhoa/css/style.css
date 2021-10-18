@@ -812,6 +812,11 @@ video {
   transform: var(--tw-transform);
 }
 
+.-translate-x-8 {
+  --tw-translate-x: -2rem;
+  transform: var(--tw-transform);
+}
+
 .transform {
   transform: var(--tw-transform);
 }
@@ -1128,6 +1133,11 @@ video {
   .lg\:my-40 {
     margin-top: 10rem;
     margin-bottom: 10rem;
+  }
+
+  .lg\:my-48 {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
   }
 
   .lg\:mt-0 {

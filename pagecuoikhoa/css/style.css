@@ -995,6 +995,11 @@ video {
   padding-right: 0px;
 }
 
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .pt-4 {
   padding-top: 1rem;
 }
@@ -1037,6 +1042,10 @@ video {
 
 .pb-0 {
   padding-bottom: 0px;
+}
+
+.pb-48 {
+  padding-bottom: 12rem;
 }
 
 .text-center {
@@ -1082,6 +1091,14 @@ video {
 
 .leading-normal {
   line-height: 1.5;
+}
+
+.leading-9 {
+  line-height: 2.25rem;
+}
+
+.leading-10 {
+  line-height: 2.5rem;
 }
 
 .text-white {
@@ -1170,6 +1187,11 @@ video {
     display: flex;
   }
 
+  .lg\:-translate-x-8 {
+    --tw-translate-x: -2rem;
+    transform: var(--tw-transform);
+  }
+
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -1193,6 +1215,11 @@ video {
   .lg\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .lg\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .lg\:pb-4 {

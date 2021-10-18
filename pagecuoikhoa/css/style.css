@@ -661,12 +661,12 @@ video {
   left: 0px;
 }
 
-.top-6 {
-  top: 1.5rem;
+.top-5 {
+  top: 1.25rem;
 }
 
-.right-6 {
-  right: 1.5rem;
+.right-5 {
+  right: 1.25rem;
 }
 
 .top-3\/4 {
@@ -679,14 +679,6 @@ video {
 
 .-top-1\/2 {
   top: -50%;
-}
-
-.top-5 {
-  top: 1.25rem;
-}
-
-.right-5 {
-  right: 1.25rem;
 }
 
 .z-50 {
@@ -733,20 +725,24 @@ video {
   margin-bottom: 2rem;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }
 
-.mt-20 {
-  margin-top: 5rem;
+.mt-16 {
+  margin-top: 4rem;
 }
 
 .mb-8 {
   margin-bottom: 2rem;
 }
 
-.mb-20 {
-  margin-bottom: 5rem;
+.mb-16 {
+  margin-bottom: 4rem;
 }
 
 .-mr-8 {
@@ -759,30 +755,6 @@ video {
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mt-16 {
-  margin-top: 4rem;
-}
-
-.mt-12 {
-  margin-top: 3rem;
-}
-
-.mb-12 {
-  margin-bottom: 3rem;
-}
-
-.mb-16 {
-  margin-bottom: 4rem;
-}
-
-.mr-4 {
-  margin-right: 1rem;
-}
-
-.ml-auto {
-  margin-left: auto;
 }
 
 .block {
@@ -835,11 +807,6 @@ video {
   transform: var(--tw-transform);
 }
 
-.-translate-y-8 {
-  --tw-translate-y: -2rem;
-  transform: var(--tw-transform);
-}
-
 .transform {
   transform: var(--tw-transform);
 }
@@ -872,10 +839,6 @@ video {
   justify-content: center;
 }
 
-.justify-items-center {
-  justify-items: center;
-}
-
 .gap-1 {
   gap: 0.25rem;
 }
@@ -888,20 +851,12 @@ video {
   gap: 1rem;
 }
 
-.gap-2 {
-  gap: 0.5rem;
-}
-
-.gap-7 {
-  gap: 1.75rem;
+.gap-3 {
+  gap: 0.75rem;
 }
 
 .gap-6 {
   gap: 1.5rem;
-}
-
-.gap-3 {
-  gap: 0.75rem;
 }
 
 .gap-y-2 {
@@ -918,8 +873,8 @@ video {
        column-gap: 1rem;
 }
 
-.gap-y-12 {
-  row-gap: 3rem;
+.gap-y-10 {
+  row-gap: 2.5rem;
 }
 
 .gap-x-1 {
@@ -927,17 +882,13 @@ video {
        column-gap: 0.25rem;
 }
 
-.gap-y-4 {
-  row-gap: 1rem;
-}
-
-.gap-y-10 {
-  row-gap: 2.5rem;
-}
-
 .gap-x-6 {
   -moz-column-gap: 1.5rem;
        column-gap: 1.5rem;
+}
+
+.gap-y-4 {
+  row-gap: 1rem;
 }
 
 .place-self-center {
@@ -998,8 +949,8 @@ video {
   stroke: currentColor;
 }
 
-.p-8 {
-  padding: 2rem;
+.p-7 {
+  padding: 1.75rem;
 }
 
 .p-10 {
@@ -1010,16 +961,18 @@ video {
   padding: 1.5rem;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
 .p-5 {
   padding: 1.25rem;
 }
 
-.p-7 {
-  padding: 1.75rem;
+.px-3\.5 {
+  padding-left: 0.875rem;
+  padding-right: 0.875rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .px-4 {
@@ -1052,27 +1005,16 @@ video {
   padding-right: 0px;
 }
 
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
-.px-3\.5 {
-  padding-left: 0.875rem;
-  padding-right: 0.875rem;
-}
-
-.pt-4 {
-  padding-top: 1rem;
+.pt-2 {
+  padding-top: 0.5rem;
 }
 
 .pt-1 {
   padding-top: 0.25rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .pt-3 {
@@ -1091,10 +1033,6 @@ video {
   padding-top: 1.25rem;
 }
 
-.pt-2 {
-  padding-top: 0.5rem;
-}
-
 .pb-5 {
   padding-bottom: 1.25rem;
 }
@@ -1105,14 +1043,6 @@ video {
 
 .pb-3 {
   padding-bottom: 0.75rem;
-}
-
-.pt-0\.5 {
-  padding-top: 0.125rem;
-}
-
-.pt-0 {
-  padding-top: 0px;
 }
 
 .text-center {
@@ -1149,10 +1079,6 @@ video {
 
 .font-medium {
   font-weight: 500;
-}
-
-.font-bold {
-  font-weight: 700;
 }
 
 .leading-9 {
@@ -1247,14 +1173,6 @@ video {
     margin-top: 0px;
   }
 
-  .lg\:mt-16 {
-    margin-top: 4rem;
-  }
-
-  .lg\:mb-16 {
-    margin-bottom: 4rem;
-  }
-
   .lg\:flex {
     display: flex;
   }
@@ -1304,27 +1222,8 @@ video {
     padding: 0px;
   }
 
-  .lg\:p-10 {
-    padding: 2.5rem;
-  }
-
   .lg\:p-12 {
     padding: 3rem;
-  }
-
-  .lg\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .lg\:py-4 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-
-  .lg\:px-4 {
-    padding-left: 1rem;
-    padding-right: 1rem;
   }
 
   .lg\:py-3 {
@@ -1332,24 +1231,16 @@ video {
     padding-bottom: 0.75rem;
   }
 
+  .lg\:pt-5 {
+    padding-top: 1.25rem;
+  }
+
   .lg\:pb-12 {
     padding-bottom: 3rem;
   }
 
-  .lg\:pb-4 {
-    padding-bottom: 1rem;
-  }
-
-  .lg\:pt-4 {
-    padding-top: 1rem;
-  }
-
   .lg\:pb-3 {
     padding-bottom: 0.75rem;
-  }
-
-  .lg\:pt-5 {
-    padding-top: 1.25rem;
   }
 
   .lg\:text-h1 {

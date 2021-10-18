@@ -794,6 +794,11 @@ video {
   transform: var(--tw-transform);
 }
 
+.translate-y-64 {
+  --tw-translate-y: 16rem;
+  transform: var(--tw-transform);
+}
+
 .transform {
   transform: var(--tw-transform);
 }

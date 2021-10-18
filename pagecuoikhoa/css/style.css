@@ -965,6 +965,10 @@ video {
   padding: 1rem;
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1035,6 +1039,14 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.pt-0\.5 {
+  padding-top: 0.125rem;
+}
+
+.pt-0 {
+  padding-top: 0px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1071,8 +1083,20 @@ video {
   font-weight: 500;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .leading-9 {
   line-height: 2.25rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
+.leading-10 {
+  line-height: 2.5rem;
 }
 
 .text-white {

@@ -1296,6 +1296,10 @@ video {
     padding-bottom: 1rem;
   }
 
+  .lg\:pt-4 {
+    padding-top: 1rem;
+  }
+
   .lg\:text-h1 {
     font-size: 72px;
     line-height: 98px;

@@ -678,6 +678,10 @@ video {
   margin: auto;
 }
 
+.m-40 {
+  margin: 10rem;
+}
+
 .my-12 {
   margin-top: 3rem;
   margin-bottom: 3rem;

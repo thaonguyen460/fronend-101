@@ -46,10 +46,31 @@
                             <li class="hover:text-brand-purple pt-1">
                                 <a href="#">More</a>
                             </li>
+                            <li>
+                                <button onclick="document.getElementsByTagName('html')[0].classList.toggle('dark')">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="32" height="32" rx="16" fill="#F3F3F3"/>
+                                        <path d="M16 26C21.514 26 26 21.514 26 16C26 10.486 21.514 6 16 6C10.486 6 6 10.486 6 16C6 21.514 10.486 26 16 26ZM16 8C20.411 8 24 11.589 24 16C24 20.411 20.411 24 16 24C11.589 24 8 20.411 8 16C8 11.589 11.589 8 16 8Z" fill="#02897A"/>
+                                        <path d="M23 16C23 12.134 19.865 9 16 9V23C19.865 23 23 19.866 23 16Z" fill="#02897A"/>
+                                    </svg>                                
+                                </button>
+                            </li>
                         </ul>
+                        <div class="lg:hidden flex justify-end gap-x-4">
+                            <button onclick="document.getElementsByTagName('html')[0].classList.toggle('dark')">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="32" height="32" rx="16" fill="#F3F3F3"/>
+                                    <path d="M16 26C21.514 26 26 21.514 26 16C26 10.486 21.514 6 16 6C10.486 6 6 10.486 6 16C6 21.514 10.486 26 16 26ZM16 8C20.411 8 24 11.589 24 16C24 20.411 20.411 24 16 24C11.589 24 8 20.411 8 16C8 11.589 11.589 8 16 8Z" fill="#02897A"/>
+                                    <path d="M23 16C23 12.134 19.865 9 16 9V23C19.865 23 23 19.866 23 16Z" fill="#02897A"/>
+                                </svg>                                
+                            </button>
+                            <button onclick="open_menu()">
+                                <svg class="dark:text-white" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><title>menu-8</title><g stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="none" class="stroke-current" stroke="#565656"><line x1="2" y1="24" x2="46" y2="24" class="stroke-current" stroke="#565656"></line> <line x1="2" y1="10" x2="46" y2="10"></line> <line x1="2" y1="38" x2="46" y2="38"></line></g></svg>
+                            </button>
+                        </div>
                     </div>
                     <div>
-                        <ul class="block lg:flex gap-x-4 lg:justify-end leading-9">
+                        <ul class="hidden lg:flex gap-x-4 lg:justify-end leading-9">
                             <li class="transform motion-safe:hover:scale-105">
                                 <a="#"><img src="./image/Web Logo/Google Play Badge.png"></a>
                             </li>
@@ -57,18 +78,6 @@
                                 <a href="#"><img src="./image/Web Logo/App Store Badge.png"></a>
                             </li>
                         </ul>
-                    </div>
-                    <div class="lg:hidden flex justify-end gap-x-4">
-                        <button onclick="document.getElementsByTagName('html')[0].classList.toggle('dark')">
-                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="32" height="32" rx="16" fill="#F3F3F3"/>
-                                <path d="M16 26C21.514 26 26 21.514 26 16C26 10.486 21.514 6 16 6C10.486 6 6 10.486 6 16C6 21.514 10.486 26 16 26ZM16 8C20.411 8 24 11.589 24 16C24 20.411 20.411 24 16 24C11.589 24 8 20.411 8 16C8 11.589 11.589 8 16 8Z" fill="#02897A"/>
-                                <path d="M23 16C23 12.134 19.865 9 16 9V23C19.865 23 23 19.866 23 16Z" fill="#02897A"/>
-                            </svg>                                
-                        </button>
-                        <button onclick="open_menu()">
-                            <svg class="dark:text-white" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><title>menu-8</title><g stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="none" class="stroke-current" stroke="#565656"><line x1="2" y1="24" x2="46" y2="24" class="stroke-current" stroke="#565656"></line> <line x1="2" y1="10" x2="46" y2="10"></line> <line x1="2" y1="38" x2="46" y2="38"></line></g></svg>
-                        </button>
                     </div>
                 </div>
             </div>

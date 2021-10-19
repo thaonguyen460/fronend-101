@@ -842,6 +842,11 @@ video {
   transform: var(--tw-transform);
 }
 
+.translate-y-full {
+  --tw-translate-y: 100%;
+  transform: var(--tw-transform);
+}
+
 .transform {
   transform: var(--tw-transform);
 }

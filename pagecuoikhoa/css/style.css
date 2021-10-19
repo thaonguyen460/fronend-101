@@ -808,6 +808,10 @@ video {
   width: 1024px;
 }
 
+.w-40 {
+  width: 10rem;
+}
+
 .max-w-screen-lg {
   max-width: 1024px;
 }
@@ -986,6 +990,11 @@ video {
 .bg-purple-200 {
   --tw-bg-opacity: 1;
   background-color: rgba(221, 214, 254, var(--tw-bg-opacity));
+}
+
+.bg-purple-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(237, 233, 254, var(--tw-bg-opacity));
 }
 
 .stroke-current {
@@ -1178,6 +1187,11 @@ video {
 
 .hover\:translate-x-1:hover {
   --tw-translate-x: 0.25rem;
+  transform: var(--tw-transform);
+}
+
+.hover\:translate-y-1:hover {
+  --tw-translate-y: 0.25rem;
   transform: var(--tw-transform);
 }
 

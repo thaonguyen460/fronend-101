@@ -1167,6 +1167,16 @@ video {
   transform: var(--tw-transform);
 }
 
+.hover\:translate-x-1\.5:hover {
+  --tw-translate-x: 0.375rem;
+  transform: var(--tw-transform);
+}
+
+.hover\:translate-x-1:hover {
+  --tw-translate-x: 0.25rem;
+  transform: var(--tw-transform);
+}
+
 .hover\:bg-purple-900:hover {
   --tw-bg-opacity: 1;
   background-color: rgba(76, 29, 149, var(--tw-bg-opacity));

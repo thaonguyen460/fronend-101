@@ -18,7 +18,7 @@
             <div class="container px-3.5 pt-2 lg:pt-5 max-w-screen-lg">
                 <div class="grid grid-cols-1 lg:grid-cols-3">
                     <div class="col-span-2">
-                        <button id="btn-close-menu" class="hidden absolute top-5 right-5 z-50 lg:hidden" onclick="close_menu()">
+                        <button id="btn-close-menu" class="hidden fixed top-5 right-5 z-50 lg:hidden" onclick="close_menu()">
                             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"><title>e-remove</title><g stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="none" class="stroke-current" stroke="#565656"><line x1="38" y1="10" x2="10" y2="38"></line> <line x1="38" y1="38" x2="10" y2="10"></line></g></svg>
                         </button>
                         <ul id="main-menu" class="hidden inset-0 z-40 fixed bg-white p-7 flex-col justify-start gap-y-2 lg:bg-transparent lg:relative lg:flex-row  lg:p-0 flex-wrap lg:flex gap-x-7 leading-9">
@@ -43,8 +43,13 @@
                             <li class="hover:text-brand-purple pt-1">
                                 <a href="#">Jobs</a>
                             </li>
-                            <li class="hover:text-brand-purple pt-1">
+                            <li class="hover:text-brand-purple pt-1 group relative">
                                 <a href="#">More</a>
+                                <ul class="transition-all hidden top-10 group-hover:block absolute bg-white px-3 rounded-md">
+                                    <li class="hover:text-brand-purple">More A</li>
+                                    <li class="hover:text-brand-purple">More B</li>
+                                    <li class="hover:text-brand-purple">More C</li>
+                                </ul>
                             </li>
                         </ul>
                         <div class="lg:hidden flex pt-4">
@@ -93,13 +98,13 @@
         <!-- Start Logo Clouds-->
         <div class="my-10 lg:my-16">
             <div class="container max-w-screen-lg px-4">
-                <div class="grid grid-cols-1 md:grid-cols-3">
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
                     <div class="text-center md:text-left place-self-center">
                         <h2 class="text-3xl lg:text-h2 font-extrabold">1,50,000+</h2>
                         <p class="pt-3">Customers who use Landify UI Kit to build their new startup landing page.</p>
                     </div>
                     <div class="col-span-2">
-                        <div class="grid grid-cols-2 md:grid-cols-4 gap-1 md:text-left">
+                        <div class="grid grid-cols-2 sm:grid-cols-4 gap-1 md:text-left">
                             <div>
                                 <a href="#"><img src="./image/Logo Clouds/Airbnb Logo.jpg"></a>
                             </div>
@@ -187,10 +192,13 @@
                     </p>
                 </div>
                 <div class="your-class">
-                    <div class="px-4">
+                    <div class="px-4 relative">
                         <div class="bg-white p-10 text-center">
                             <h4 class="text-h4 font-extrabold">Collaborating</h4>
                             <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+                            <div class="absolute translate-y-1/2 top-1/2 left-1/2 transform -translate-x-1/2">
+                                <img src="./image/Feature Icons/Vector 3.svg">
+                            </div>
                         </div>
                         <div class="p-6 text-center">
                             <img class="justify-items m-auto" src="./image/Web Image/Picture.png">
@@ -288,28 +296,28 @@
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-7 gap-y-10 lg:gap-y-12">
                     <div>
                         <a href="#">
-                            <img src="./image/Web Image/cover-phone-1.png">
+                            <img class="hover:translate-y-2" src="./image/Web Image/cover-phone-1.png">
                             <h4 class="text-h4 font-extrabold pt-5 hover:text-brand-purple">Project Title</h4>
                         </a>
                         <p class="pt-2">iOS, IoT</p>
                     </div>
                     <div>
                         <a href="#">
-                            <img src="./image/Web Image/cover-phone-2.png">
+                            <img class="hover:translate-y-2" src="./image/Web Image/cover-phone-2.png">
                             <h4 class="text-h4 font-extrabold pt-5 hover:text-brand-purple">Project Title</h4>
                         </a>
                         <p class="pt-2">Android, IoT</p>
                     </div>
                     <div>
                         <a href="#">
-                            <img src="./image/Web Image/cover-1.png">
+                            <img class="hover:translate-y-2" src="./image/Web Image/cover-1.png">
                             <h4 class="text-h4 font-extrabold pt-5 hover:text-brand-purple">Project Title</h4>
                         </a>
                         <p class="pt-2">Web app</p>
                     </div>
                     <div>
                         <a href="#">
-                            <img src="./image/Web Image/cover-1.png">
+                            <img class="hover:translate-y-2" src="./image/Web Image/cover-1.png">
                             <h4 class="text-h4 font-extrabold pt-5 hover:text-brand-purple">Project Title</h4>
                         </a>
                         <p class="pt-2">Web app</p>

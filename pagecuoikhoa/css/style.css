@@ -1274,6 +1274,10 @@ video {
     gap: 2.5rem;
   }
 
+  .md\:self-center {
+    align-self: center;
+  }
+
   .md\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;

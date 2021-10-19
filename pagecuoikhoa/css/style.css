@@ -772,6 +772,10 @@ video {
   margin-top: 1rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .block {
   display: block;
 }
@@ -1152,6 +1156,11 @@ video {
 .text-h5 {
   font-size: 18px;
   line-height: 28px;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-extrabold {

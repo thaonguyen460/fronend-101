@@ -812,6 +812,12 @@ video {
   width: 10rem;
 }
 
+.w-max {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
 .max-w-screen-lg {
   max-width: 1024px;
 }

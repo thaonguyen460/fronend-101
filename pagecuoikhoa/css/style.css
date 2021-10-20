@@ -693,6 +693,14 @@ video {
   right: 1rem;
 }
 
+.top-7 {
+  top: 1.75rem;
+}
+
+.right-3 {
+  right: 0.75rem;
+}
+
 .z-50 {
   z-index: 50;
 }
@@ -1077,6 +1085,10 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.pt-0 {
+  padding-top: 0px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1318,6 +1330,10 @@ video {
 
   .lg\:pb-3 {
     padding-bottom: 0.75rem;
+  }
+
+  .lg\:pt-1 {
+    padding-top: 0.25rem;
   }
 
   .lg\:text-left {
